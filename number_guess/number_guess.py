@@ -9,7 +9,7 @@ if  number.isdigit():
         print("Enter a number greater than zero")
         quit()
 else:
-    print("Please enter a number not any another format")
+    print("Please enter a number only")
     quit()
 
 random_number = random.randint(0, number)
